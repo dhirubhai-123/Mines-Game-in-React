@@ -73,9 +73,10 @@ const Playsection = () => {
                             return <button className='text-slate-500 bg-slate-800 m-2 min-h-28 min-10 rounded-md flex justify-center items-center relative ' key={item.key} disabled={true}
                             >{
                                     userWon.includes(Number.parseInt(item.key)) ?
-                                        <img src="src\assets\diamond.png" alt="diamond" className='size-16 animate-ping' />
+                                        <img src="https://github.com/dhirubhai-123/Mines-Game-in-React/blob/main/src/assets/diamond.png?raw=true" alt="diamond" className='size-16 animate-ping' />
+
                                         :
-                                        <img src="src\assets\diamond.png" alt="diamond" className='size-16 invert animate-bounce' />
+                                        <img src="https://github.com/dhirubhai-123/Mines-Game-in-React/blob/main/src/assets/diamond.png?raw=true" alt="diamond" className='size-16 invert animate-bounce' />
 
                                 }
                             </button>
@@ -87,10 +88,10 @@ const Playsection = () => {
                             {
                                 userLost ?
                                     <button disabled={true} >
-                                        <img src="src\assets\bomb.png" alt="" className='size-16 animate-spin' />
+                                        <img src="https://github.com/dhirubhai-123/Mines-Game-in-React/blob/main/src/assets/bomb.png?raw=true" alt="" className='size-16 animate-spin' />
                                     </button>
                                     :
-                                    <img src="src\assets\bomb.png" alt="" className='size-16 animate-pulse hover:cursor-pointer'
+                                    <img src="https://github.com/dhirubhai-123/Mines-Game-in-React/blob/main/src/assets/bomb.png?raw=true" alt="" className='size-16 animate-pulse hover:cursor-pointer'
                                         onClick={() => {
                                             updateTileWhichIsClicked(Number.parseInt(item.key));
                                             if (!randomNumbers.includes(Number.parseInt(item.key))) {
