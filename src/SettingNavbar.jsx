@@ -27,7 +27,7 @@ const SettingNavbar = () => {
     <div className='w-full z-50 opacity-95 fixed top-0 p-2 text-center min-h-12 text-2xl flex justify-around items-center bg-slate-600'>
 
       <div className='shadow-xl'>
-        <img src="src\assets\minesWebLogo.jpg" alt="" className='object-cover w-32 h-16 rounded-md shadow-xl' />
+        <img src="https://github.com/dhirubhai-123/Mines-Game-in-React/blob/main/src/assets/minesWebLogo.jpg?raw=true" alt="" className='object-cover w-32 h-16 rounded-md shadow-xl' />
       </div>
       <div>{score}</div>
 
